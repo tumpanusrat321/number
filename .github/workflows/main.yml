@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: |
           mkdir $BUILD_DIR
-          gcc main.c -o $BUILD_DIR/$ARTIFACT_NAME
+          gcc number.c -o $BUILD_DIR/$ARTIFACT_NAME
 
       - name: Test
         run: |
